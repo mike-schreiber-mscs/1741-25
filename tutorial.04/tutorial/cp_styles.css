@@ -1,0 +1,57 @@
+/*
+   New Perspectives on HTML and CSS
+   Tutorial 4
+   Tutorial Case
+
+   Cycle Pathology Style Sheet
+   Author: Mike Schreiber
+   Date:   10/20/2016  
+
+   Filename:         cp_styles.css
+   Supporting Files: atwood.png, bike_bg.png, rawlings.png
+
+*/
+
+/*styles for the page body*/
+
+body {
+	background: black url(bike_bg.png) top left no-repeat;
+	width: 95%;
+	min-width: 1000px;
+	min-height: 1400px;
+}
+
+/*general navigation list style*/
+
+nav a {
+	text-decoration: none;
+}
+
+/*horizontal navigation list*/
+
+nav.horizontalNAV li {
+	font-size: 87.5%;
+	float: left;
+	text-align: center;
+	width: 20%;
+}
+
+nav.horizontalNAV li a {
+	color: rgb(255,2555,99);
+}
+
+nav.horizontalNAV li a:hover {
+	color: white;
+}
+
+/*president's message*/
+
+#president {
+	background-color: rgb(105,96,87);
+	background-color: rgba(255,255,255,0.3);
+	clear: left;
+	float: left;
+	width:40%;
+}
+
+

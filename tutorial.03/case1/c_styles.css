@@ -1,0 +1,36 @@
+/*
+   New Perspectives on HTML
+   Tutorial 3
+   Case Problem 1
+
+   ICI Text and Color Styles
+    Author: Mike Schreiber
+    Date:   10/03/2016   
+
+   Filename:         c_styles.css
+   Supporting Files: none
+
+*/
+
+/*strong styles*/
+	 strong.keyword {
+		color: yellow;
+	}
+	
+	
+/*body stlyes*/
+	body {
+		background-color: black;
+		color: white;
+		font-family: 'Century Gothic', sans-serif;
+	}
+
+/*h1 heading styles*/
+	header h1 {
+		color: yellow;
+		font-family: 'Courier New', Courier;
+		font-size: 28px;
+		letter-spacing: 20px;
+		text-align: center;
+	}
+

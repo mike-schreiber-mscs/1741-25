@@ -1,0 +1,114 @@
+﻿/*
+   New Perspectives on HTML and CSS
+   Tutorial 3
+   Case Problem 3
+
+   Civil War History Text and Color Style
+   Author: Mike Schreiber
+   Date:   10/06/2016
+
+   Filename:         cw_styles.css
+   Supporting Files: cw_layout.css
+
+*/
+
+/*add body style to set the font*/
+body {
+	font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+}
+
+/*h1-h6 style to set color, font family, remove boldface, set kerning and indent*/
+h1, h2, h3, h4, h5, h6 {
+	color: hsla(212, 0%, 0%, 0.4);
+	font-family: 'Trebuchet MS', Helvetica, sans-serif;
+	font-weight: normal;
+	letter-spacing: 5px;
+	text-indent: 5px;
+}
+
+/*style that sets the back color for h1 elements that are direct children of a header which is direct child of Body*/
+body>header>h1 {
+	background-color: hsl(212, 100%, 29%);
+}
+
+/*style that sets the font and text properties for the unordered list links that are part of the nav horizontal class. Also removes the underlining decoration of the links*/
+nav.horizontal ul li a{
+	font-family: "Century Gothic MS", sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+	font-weight: bold;
+	letter-spacing: 3px;
+	text-decoration: none; 
+}
+
+/*sets the color of the nav horizontal class link's text*/
+nav.horizontal ul li a {
+	color: hsl(212,100%,70%);
+}
+
+/*sets the color for nav horizontal class text when user hovers over the hyperlink text*/
+nav.horizontal ul li a:hover {
+	color: hsl(212,100%,29%);
+}
+
+/*sets the back color for the nav.vertical unordered list */
+nav.vertical ol {
+	background-color: hsl(32,100%,95%);
+}
+
+/*sets color of text, font size and indents the text of a h1 that belongs to the nav.vertical class*/
+nav.vertical h4 {
+	color: hsla(32,0%,0%,0.5);
+	font-size: 18px;
+	text-indent: 15px;	
+}
+
+/*sets the nav.vertical class ordered list to outline format with upper case roman as top level, upper -alpha for lower level and sets line height to 2 em*/
+nav.vertical ol {list-style:upper-roman;}
+nav.vertical ol ol {list-style: upper-alpha;}
+nav.verical ol {
+	line-height: 2em;
+}
+
+/*sets the text color and removes the underlining of hypertext in the nav.vertical class ordered list*/
+nav.vertical ol li a {
+	color: hsla(212,100%,29%,0.6);
+	text-decoration: none;
+}
+
+/*changes the color to be darker and displays as underlined when hovering over the hypertext in order list that resides in the nav.vertical class*/
+nav.vertical ol li a:hover {
+	color: hsla(212,100%,29%,1.0);
+	text-decoration: underline;
+}
+
+/*sets the back color for the section */
+section {
+	background-color: hsl(212,95%,90%);
+}
+
+/*sets the first letter of first paragraph after a h2 heading that resides in an article*/
+article h2+p:first-letter {
+	text-transform: uppercase;
+	font-size: 32px;
+}
+
+/*sets the line height, text size, and text aligment for the paragraph that resides in the footer */
+footer p {
+	font-size: 10px;
+	line-height: 30px;
+	text-align: center;
+}
+
+
+
+	
+
+
+
+
+
+
+
+
+	

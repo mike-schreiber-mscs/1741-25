@@ -1,0 +1,184 @@
+﻿/*
+   New Perspectives on HTML
+   Tutorial 3
+   Case 4
+
+   sccr Style Sheet
+   Author: Mike Schreiber
+   Date:   10/14/2014
+
+   Filename:         sccrstyles.css
+   Supporting Files: none
+
+*/
+
+/* Section Styles */
+
+/*changed font family mjs*/
+body {
+line-height: 1.5em;
+font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+}
+
+header {
+text-align: left;
+}
+
+/*changed font weight for h2 mjs */
+h2 {
+	font-weight: normal;
+}
+
+nav {
+
+}
+
+section nav {
+font-size: 0.9em;
+text-align: center;
+}
+
+
+nav ul {
+list-style-type: none;
+font-size: 0.8em;
+}
+
+nav ul li {
+text-align: center;
+background-color: #afd3f3;
+line-height: 1.5em;
+}
+
+section {
+}
+
+section.full {
+}
+
+section p {
+font-size: 1.1em;
+}
+
+section.full h1 {
+text-align: right;
+font-size: 2em;
+letter-spacing: 0.1em;
+}
+
+section.full p {
+font-size: 0.9em;
+}
+
+section.full article h1 {
+font-size: 1.1em;
+text-align: left;
+letter-spacing: 0.5em;
+font-weight: normal;
+color: #2d04ff;
+}
+
+section.full article figure {
+}
+
+section.full article figure img {
+}
+
+
+aside {
+}
+
+aside h1 {
+font-size: 1.1em;
+font-weight: normal;
+text-align: center;
+line-height: 1.1em;
+}
+
+aside figure {
+}
+
+aside figure img {
+}
+
+aside figure figcaption {
+line-height: 1em;
+text-align: center;
+font-style: italic;
+font-size: 0.7em;
+}
+
+/*changed the bullet round to square and font size mjs*/
+aside li {
+font-size: 1.0em;
+line-height: 1.1em;
+list-style: square;
+}
+
+footer {
+text-align: center;
+}
+
+footer address {
+font-size: 0.8em;
+font-style: normal;
+font-variant: small-caps;
+}
+
+
+/* Block Styles */
+h1, h2, h3, h4, h5, h6 {
+font-family: Arial, Helvetica, sans-serif;
+}
+
+header h1 {
+font-size: 2em;
+}
+
+h2 {
+font-size: 1.5em;
+}
+
+header h1 {
+}
+
+header h2 {
+font-size: 1.2em;
+font-style: italic;
+}
+
+article p {
+}
+
+article ul {
+}
+
+article ul li {
+}
+
+aside h2 {
+text-align: center;
+}
+
+aside p {
+font-size: 0.8em;
+}
+
+section.full h2 {
+font-size: 1.5em;
+}
+
+
+dl {
+font-size: 0.9em;
+}
+
+dt b {
+font-size: 1.1em;
+}
+
+section.full div {
+}
+
+img {
+}
