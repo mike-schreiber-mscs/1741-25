@@ -26,6 +26,11 @@ h1, h2, h3, h4, h5, h6 {
 	text-indent: 5px;
 }
 
+/*change header text color to white*/
+body>header {
+	color: white;
+}
+
 /*style that sets the back color for h1 elements that are direct children of a header which is direct child of Body*/
 body>header>h1 {
 	background-color: hsl(212, 100%, 29%);
@@ -52,7 +57,7 @@ nav.horizontal ul li a:hover {
 }
 
 /*sets the back color for the nav.vertical unordered list */
-nav.vertical ol {
+nav.vertical {
 	background-color: hsl(32,100%,95%);
 }
 

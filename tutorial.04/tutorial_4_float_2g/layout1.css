@@ -39,6 +39,9 @@ nav.horizontal ul {
    display: block;
    width: 950px;
    height: 20px;
+   border-style: solid;
+   border-width: thin;
+   border-color: rgba(0,0,255,1);
 }
 
 nav.horizontal ul li {
@@ -46,16 +49,70 @@ nav.horizontal ul li {
    float: left;
    text-align: center;
    width: 150px;
+   border-style: solid;
+   border-width: thin;
+   border-color: rgba(255,0,255,1);
 }
 
 nav.vertical {
    display: block;
-   width: 950px;
-   }
+   width: 1100px;
    
-/*nav.vertical ol li {
-	display: block;
-	float: left;
-	width: 250px;
-}*/
+   }
 
+nav.vertical>ol {
+	clear:both;
+	height: 7.9em;
+	border-style: solid;
+	border-width: thin;
+	border-color: rgba(0,0,255,1);
+}
+  
+nav.vertical>ol>li {
+	float: left;
+	height: 7em;
+	width: 250px;
+	border-style: solid;
+	border-width: thin;
+	border-color: rgba(255,0,255,1);
+	
+}
+ 
+nav.vertical ol li ol li {
+	clear: left;
+	border-style: solid;
+	border-width: thin;
+	border-color: rgba(255,0,255,1);
+}
+
+section {
+	clear: left;
+}
+
+section {
+   clear: left;
+   float: left;
+   width: 700px;
+}
+
+article {
+   float: left;
+   width: 400px;
+}
+
+aside {
+   display: block;
+   width: 300px;
+   float: left;
+}
+
+aside img {
+   display: block;
+   width: 200px;
+   margin: 0px auto 10px;
+}
+
+footer {
+   clear: left;
+   width: 1000px;
+}
