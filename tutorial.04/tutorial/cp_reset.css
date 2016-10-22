@@ -27,13 +27,15 @@ body * {
 	font-weight: inherit;
 	line-height: 1.2em;
 	list-style: none;
+	marigin: 0px;
+	padding: 0px;
 	vertical-align: baseline;
 }
 
 /*temporarily hide the page sections*/
 
-nav.veriticalNAV,
-#story, header, aside, footer {
+
+/*header, aside, footer {
 	display: none;
-}
+}*/
 

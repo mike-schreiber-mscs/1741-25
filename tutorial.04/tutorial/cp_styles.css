@@ -18,7 +18,7 @@ body {
 	background: black url(bike_bg.png) top left no-repeat;
 	width: 95%;
 	min-width: 1000px;
-	min-height: 1400px;
+	max-width: 1400px;
 }
 
 /*general navigation list style*/
@@ -29,15 +29,22 @@ nav a {
 
 /*horizontal navigation list*/
 
+nav.horizontalNAV {
+	marigin-left: 33%;
+	width: 66%;
+}
+
 nav.horizontalNAV li {
 	font-size: 87.5%;
 	float: left;
+	padding: 15px 0px;
 	text-align: center;
 	width: 20%;
+	
 }
 
 nav.horizontalNAV li a {
-	color: rgb(255,2555,99);
+	color: rgb(255,255,99);
 }
 
 nav.horizontalNAV li a:hover {
@@ -49,9 +56,130 @@ nav.horizontalNAV li a:hover {
 #president {
 	background-color: rgb(105,96,87);
 	background-color: rgba(255,255,255,0.3);
+	background-image: url(atwood.png);
+	background-position: bottom right;
+	background-repeat: no-repeat;
+	
+	-o-background-size: 40%;
+	-moz-background-size: 40%;
+	-webkit-background-size: 40%;
+	background-size: 40%;
+	-moz-border-radius: 30px;
+	-webkit-border-radius: 30px;
+	border-radius: 30px;
 	clear: left;
 	float: left;
+	margin-left: 33%;
 	width:40%;
 }
+
+/*format the headings for the presidents message*/
+
+#president h1 {
+	font-family: 'Lucinda Calligraphy', 'Apple Chancery', cursive;
+	font-size: 158%;
+	font-weight: bold;
+	margin: 10px 0px 0px 10px;
+}
+
+#president h2 {
+	font-size: 105%;
+	margin: 0px 0px 10px 15px;
+}
+
+#president p {
+	font-size: 87.5%;
+	margin: 0px 40% 20px 15px;
+		
+}
+
+/*vertical navigation list*/
+
+nav.verticalNAV {
+	float: left;
+	margin-left: 3%;
+	width: 23%;
+}
+
+nav.verticalNAV a {
+	border-bottom: 1px solid rgb(182,182,92);
+	color: rgb(182, 182, 92);
+	display: block;
+	line-height: 2.2em;
+	
+	
+}
+
+nav.verticalNAV a:hover {
+	background-color: rgb(105,96,87);
+	background-color: rgba(255,255,255,0.3);
+}
+
+/*story section styles*/
+
+#story {
+	background-color: gray;
+	background-color: rgba(255,255,255,0.8);
+	clear: left;
+	float: left;
+	margin: 20px 0px 0px 33%;
+	width: 66%;
+}
+
+/*article styles*/
+
+#story article {
+	border-right: 1px solid black;
+	float: left;
+	width: 50%;
+}
+
+#story article hgroup {
+	background: rgb(97,30,2) url(rawlings.png) bottom right	no-repeat;
+	
+	-o-background-size: contain;
+	-moz-background-size: contain;
+	-webkit-background-size: contain;
+	background-size: contain;
+	
+	color: rgb(145,98,78);
+	color: rgba(255,255,255,0.3);
+	
+	height: 90px;
+	text-indent: 10px;
+}
+
+#story article hgroup h1 {
+	font-size: 158%;
+	letter-spacing: 3px;
+}
+
+
+#story article hgroup h2 {
+	font-size: 105%;
+}
+
+/*figure box styles*/
+
+#story figure {
+	float: left;
+	width: 49%;
+}
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+	
+
 
 
