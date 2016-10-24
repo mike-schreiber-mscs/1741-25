@@ -163,7 +163,35 @@ nav.verticalNAV a:hover {
 
 #story figure {
 	float: left;
-	width: 49%;
+	width: 41%;
+}
+
+#story article p {
+	font-size: 89%;
+	margin: 10px;
+}
+
+#story article ul li {
+	font-size: 80%;
+	margin: 15px 25px;
+}
+
+#story article ul li strong {
+	font-weight: bold;
+}
+
+#story figure img {
+	border: 5px inset rgb(227, 168, 145);
+	display: block;
+	margin: 30px auto 10px;
+	width: 80%;
+}
+
+
+#story figure figcaption {
+	font-size: 75%;
+	font-style: italic; 
+	text-align: center;
 }
 
 
