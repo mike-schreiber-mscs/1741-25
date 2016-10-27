@@ -16,9 +16,18 @@
 
 body {
 	background: black url(bike_bg.png) top left no-repeat;
+	position: relative;
 	width: 95%;
 	min-width: 1000px;
 	max-width: 1400px;
+}
+
+/*styles for the page header*/
+
+header {
+	position: absolute;
+	top: 20px;
+	left: 20px;
 }
 
 /*general navigation list style*/
@@ -30,7 +39,7 @@ nav a {
 /*horizontal navigation list*/
 
 nav.horizontalNAV {
-	marigin-left: 33%;
+	margin-left: 33%;
 	width: 66%;
 }
 
@@ -194,9 +203,50 @@ nav.verticalNAV a:hover {
 	text-align: center;
 }
 
-
+/*side bar styles*/
 	
+aside {
+	color: rgb(145, 98, 78);
+	position: absolute;
+	top: 400px;
+	left: 10px;
+	width: 30%;
+	height: 450px;
+	overflow: auto;
+}
 
+aside h1 {
+	font-size: 105%;
+	font-weight: bold;
+	margin-bottom: 25px;
+	text-align: center;
+}
+
+aside h2 {
+	font-size: 85%;
+	font-weight: bold;
+}
+
+aside p {
+	font-size: 75%;
+	margin: 15px;
+}
+
+/*footer styles*/
+
+footer {
+	clear: left;
+	margin-left: 33%;
+	widows: 66%;
+}
+
+footer address {
+	color: rgb(182, 182, 92);
+	font-size: 80%;
+	font-style: normal;
+	padding-top: 10px;
+	text-align: center;
+}
 
 
 
