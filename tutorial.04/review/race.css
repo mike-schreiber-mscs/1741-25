@@ -1,0 +1,86 @@
+/*
+   New Perspectives on HTML and CSS
+   Tutorial 4
+   Review Assignment
+
+   Cycle Pathology Style Sheet
+   Author: Mike Schreiber
+   Date:   10/29/2016
+
+   Filename:         race.css
+   Supporting Files: 
+
+*/
+
+/*#3 diplays elements as blocks*/
+article, aside, figure, figcaption, hgroup, section, nav {
+	display: block;
+}
+
+
+/*#4 sets these defaults for all elements*/
+* {
+	font-style: Verdana, Geneva, sans-serif;
+	font-size: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+
+/*#5 removes underlining from hypertext in nav element*/
+nav a {
+	text-decoration: none;
+}
+
+/*6 body style rules*/
+body {
+	position: relative;
+	width: 98%;
+	min-width: 1000px;
+	max-width: 1400px;
+}
+
+/*#7 Header styles*/
+header {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 20%;
+	background-color: black;
+	padding-bottom: 500px;
+	
+	/* #8 sets width of inline image in header ASK ABOUT This*/
+	-o-background-size: 50%;
+	-moz-background-size: 50%;
+	-webkit-background-size: 50%;
+	background-size: 50%;
+}
+
+/* #9 sets Nav horizontal styles*/
+nav.horizontal {
+	width: 80%;
+	margin-left: 20%;
+}
+
+nav.horizontal li {
+	display: block;
+	float: left;
+	width: 20%;
+	background-color: rgb(49, 38, 31);
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 85%;
+}
+
+/*10 set the color of hyper text links in horizontal nav list to white and add hover*/
+nav.horizontal a {
+	color: white;
+}
+
+
+nav.horizontal a:hover {
+	color: rgb(215, 181,151);
+}
+
+
