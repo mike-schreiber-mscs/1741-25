@@ -55,6 +55,10 @@ header {
 	background-size: 50%;
 }
 
+header img {
+	width: 100%;
+}
+
 /* #9 sets Nav horizontal styles*/
 nav.horizontal {
 	width: 80%;
@@ -82,5 +86,152 @@ nav.horizontal a {
 nav.horizontal a:hover {
 	color: rgb(215, 181,151);
 }
+
+/*#11 nav vertical styles*/
+nav.vertical li {
+	font-size: 85%;
+	list-style: none;
+}
+
+nav.vertical li.newgroup {
+	padding-top: 25px;
+}
+
+/*#12 set hypertext styles */
+nav.vertical a {
+	color: white;
+	display: block;
+	text-indent: 10px;
+}
+
+nav.vertical a:hover {
+	background-color: rgb(51, 51, 51);
+	border: 2px solid rgb(215, 181, 151);
+}
+	
+/*#13 main styles*/
+#main {
+	clear: left;
+	float: left;
+	margin-left: 21%;
+	margin-top: 20px;
+	width: 49%;
+}
+
+/*#14 h1 heading styles*/
+#main h1 {
+	color: rgb(189, 131, 82);
+	font-size: 180%;
+	font-weight: normal;
+	letter-spacing: 5px;
+}
+
+/*#15 main section styles*/
+#main p {
+	margin: 15px;
+}
+
+#main ul {
+	list-style: disc;
+	margin: 25px;
+}
+
+#main ul li {
+	margin-bottom: 10px;
+}
+
+/*#16 aside styles*/
+aside {
+	border: 3px solid rgb(149, 91, 42);
+	color: rgb(149, 91, 42);
+	float: right;
+	margin: 10px;
+	width: 50%;
+	-moz-border-radius: 30px;
+	-webkit-border-radius: 30px;
+	border-radius: 30px;
+}
+
+aside p {
+	font-size: 90%;
+	margin: 20px;
+}
+
+/*#17 article styles*/
+article {
+	float: left;
+	width: 29%;
+	margin-left: 1%;
+	background-color: rgb(215, 181, 151);
+}
+
+/*#18 article header styles*/
+article hgroup {
+	background: rgb(189, 131, 82) url(alisha.png) bottom right no-repeat;
+	color: rgb(215, 181, 151);
+	margin-bottom: 10px;
+	height: 60px;
+	text-indent: 20px;
+}
+
+article hgroup h1 {
+	font-size: 150%;
+	font-weight: normal;
+}
+	
+article hgroup h2 {
+	font-size: 110%;
+	font-weight: normal;
+}	
+
+/*#19 article paragraph styles*/
+article p {
+	font-size: 90%;
+	margin: 15px;
+}
+
+/*#20 figure box styles*/
+figure {
+	clear: left;
+	float: left;
+	margin-left: 21%;
+	width: 79%;
+	background-color: rgb(149, 91, 42);
+}
+
+/*#21 overflow styles*/
+figure div {
+	overflow: auto;
+	white-space: nowrap;
+}
+
+/*#22 figure box inline image style*/
+figure img {
+	margin: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+}
+
+/*#23 figcaption styles*/
+figure figcaption {
+	background: white;
+	font-size: 80%;
+	font-style: italic;
+	text-align: center;
+	margin-top: 5px;
+}
+
+
+	
+
+
+	
+
+
+	
+	
+
+
 
 
