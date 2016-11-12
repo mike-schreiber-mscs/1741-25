@@ -1,0 +1,220 @@
+/*
+   New Perspectives on HTML and CSS
+   Tutorial 4
+   Case Problem 2
+
+   Pizza Style Sheet
+   Author: Mike Schreiber
+   Date:   11/12/2016   
+
+   Filename:         pizza.css
+   Supporting Files: 
+
+*/
+
+/*#3 displays header, section, aside, footer, nav elements as blocks*/
+header, section, aside, footer, nav {
+	display: block;
+}
+
+/*#4 sets default padding and margin*/
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+/*#5 body styles*/
+body {
+	background-color: red;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+/* #6 sets id #container rules*/
+#container {
+	width: 1000px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-right: auto;
+	margin-left: auto;
+	border-right: 1em solid black;
+	border-left:  1em solid black;
+	background: white url(redbar.png) top left repeat-y;
+}
+
+/* #7 header style*/
+header {
+	background-color: white;
+	height: 100px;
+}
+
+/* #8 nav horizontal styles*/
+nav.horizontal {
+	height: 70px;
+	width: 100%;
+	background-color: white;
+}
+
+/*#9*/
+nav.horizontal li {
+	font-size: 16px;
+	line-height: 50px;
+	display: block;
+	float: left;
+	height: 50px;
+	width: 180px;
+	background-color: white;
+	margin-left: 5px;
+	margin-right: 5px;
+	text-align: center;
+}
+
+/*#10*/
+nav.horizontal a {
+	display: block;
+	background-color: red;
+	color: white;
+	-webkit-border-radius: 30px 25px;
+	-moz-border-radius: 30px/25px ;
+	border-radius: 30px/25px;
+	text-decoration: none;
+}
+
+/*#10*/
+nav.horizontal a:hover {
+	background-color: rgb(255,101,101);
+	color: black;
+}
+
+/*#11 vertical nav rules*/
+nav.vertical {
+	clear: left;
+	float: left;
+	width: 200px;
+}
+
+/*#12*/
+nav.vertical li {
+	list-style: none;
+	text-indent: 20px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+/*#13*/
+nav.vertical a {
+	color: white;
+	text-decoration: none;
+}
+
+/*#13*/
+nav.vertical a:hover {
+	color: black;
+}
+
+/* #14 main section style rules*/
+#main {
+	background-color: rgb(255,211,211);
+	float: left;
+	width: 600px;
+}
+
+/*#15*/
+#main > p {
+	font-size: 20px;
+	margin: 15px;
+}
+
+/*#16*/
+#main img {
+	float: right;
+	margin: 15px;
+	width: 350px;
+	-webkit-border-bottom-left-radius: 350px;
+	-moz-border-radius-bottomleft: 350px;
+	border-bottom-left-radius: 350px;
+}
+
+/*#17 & 18 coupon class style rules*/
+div.coupon {
+	border: 5px dashed black;
+	float: left;
+	width: 170px;
+	height: 150px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+	background: url(slice.png) center no-repeat, url(notice.png) bottom right no-repeat white;
+}
+
+
+/*#19*/
+div.coupon h1 {
+	color: white;
+	background-color: rgb(192,0,0);
+	font-size: 16px;
+	letter-spacing: 2px;
+	text-align: center;
+	height: 25px;
+	font-variant: small-caps;
+}
+
+/* #20*/
+div.coupon p {
+	font-size: 14px;
+	text-align: center;
+	margin: 5px;
+}
+
+/*21 aside rules*/
+aside {
+	float: left;
+	width: 200px;
+}
+
+/*#22*/
+aside h1 {
+	color: rgb(192,0,0);
+	font-size: 20px;
+	letter-spacing: 2px;
+	font-weight: normal;
+	text-align: center;
+}
+
+/*#23*/
+aside li {
+	background-color: rgb(255,135,135);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	color: black;
+	list-style: none;
+	margin: 10px;
+	padding: 5px;
+}
+
+/*#24 footer style rules*/
+footer {
+	clear: left;
+	margin-left: 200px;
+}
+
+/*#25 address rules*/
+footer address {
+	border-top: 1px solid red;
+	color: red;
+	font-size: 10px;
+	font-style: normal;
+	text-align: center;
+	margin-top: 25px;
+	padding-bottom: 20px;
+}
+
+						
+	
+	
+
+
+	
+	 	
+	
