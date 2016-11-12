@@ -1,0 +1,114 @@
+/*
+   New Perspectives on HTML and CSS
+   Tutorial 4
+   Case Problem 1
+
+   History Style Sheet
+   Author: Mike Schreiber
+   Date:   11/12/2016
+
+   Filename:         history.css
+   Supporting Files: 
+
+*/
+
+/*displays header section and nav as blocks*/
+header, section, nav {
+	display: block;
+}
+
+/*sets default padding and margins for all elements*/
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+/*header styles*/
+header {
+	background-color: rgb(51,51,51);
+	text-align: center;
+	width: 55em;
+}
+
+header img {
+	height: 4em;
+}
+
+/*nav styles*/
+nav.vertical {
+	float: left;
+	width: 15em;
+	background-color: rgb(51,51,51);
+}
+
+nav.vertical li {
+	font-family: 'Century Gothic', sans-serif;
+	font-size: 0.7em;
+	list-style: none;
+	line-height: 1.4em;
+	margin-left: 1em;
+	margin-bottom: 1.2em;
+}
+
+nav.vertical a {
+	color: rgb(212,212,212);
+	text-decoration: none;
+}
+
+nav.vertical a:hover {
+	color: white;
+}
+
+/*section styles*/	
+#speech {
+	background-color: rgb(212,212,212);
+	width: 40em;
+	float: left;
+	font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+}
+
+#speech h1 {
+	background-color: rgb(51,51,51);
+	color: rgb(212,212,212);
+	font-size: 2em;
+	text-align: center;
+}
+
+#speech p {
+	font-size: 0.9em;
+	margin: 1em;
+}
+
+/*sets the first letter of first paragraph in the speech section */
+#speech  > p:first-of-type:first-letter {
+	float: left;
+	font-size: 4em;
+	line-height: 0.8em;
+	margin-right: 0.3em;
+	padding-right: 0.2em;
+	padding-bottom: 0.2em;
+	border-right: 0.02em solid black;
+	border-bottom:  0.02em solid black;
+}
+
+/*sets first line of first paragraph to uppercase 	Not supported*/
+#speech > p:first-of-type:first-line {
+	text-transform: uppercase;
+}
+
+/*style rules to clear and float right and set image height*/
+#speech img {
+	clear: right;
+	float: right;
+	height: 4em;
+}
+
+
+
+
+
+	
+	
+
+	
+	
