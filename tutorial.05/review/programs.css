@@ -1,0 +1,91 @@
+/*
+   New Perspectives on HTML and CSS
+   Tutorial 5
+   Review Assignment
+
+   Programming Table Style Sheet
+   Author: Mike Schreiber
+   Date:   11/26/2016
+
+   Filename:         programs.css
+   Supporting Files: 
+
+*/
+
+/*Styles for the programs table*/
+table.programs {
+	border: 2px solid black;
+	border-collapse: collapse;
+	font-family: Arial, Verdana, sans-serif;
+	width: 100%;
+}
+
+/*table caption styles*/
+table.programs caption {
+	caption-side: bottom;
+	text-align: left;
+	font-size: 0.8em;
+}
+
+/*table body data styles*/
+table.programs tbody td {
+	font-size: 0.7em;
+	border: 1px solid gray;
+	padding: 2px;
+	vertical-align: text-top;
+}
+
+table.programs tr {
+	height: 25px;
+}
+
+/*table header styles*/
+table.programs thead {
+	background-color: rgb(105,177,60);
+	color: white;
+	font-size: 0.7em;
+	border: 1px solid gray;
+}
+
+/*styles for the first of type thead*/
+table.programs thead th:first-of-type {
+	background-color: rgb(153,86,7);
+	
+ }
+ 
+ /*styles for the 7th and 8th thead*/
+table.programs thead th:nth-of-type(7), table.programs thead th:nth-of-type(8) {
+	background-color: rgb(153,0,153);
+	
+ }
+ 
+ /*column style rules*/
+ table.programs col.timeColumn {
+	 width: 10%;
+	 background-color: rgb(215,205,151);
+ }
+ 
+ table.programs col.wDayColumns {
+	 width: 11%;
+	 background-color: rgb(236,255,211);
+ }
+ 
+ table.programs col.wEndColumns {
+	 width: 17%;
+	 background-color: rgb(255,231,255);
+ }
+ 
+ /* 3 column layout for the introductory paragraph*/
+section#intro p {
+	-moz-column-count: 3;
+	-webkit-column-count: 3;
+	column-count: 3;
+
+	-webkit-column-gap: 20px;
+	-moz-column-gap: 20px;
+	column-gap: 20px;
+	
+	-moz-column-rule: 1px solid black;
+	-webkit-column-rule: 1px solid black;
+	column-rule: 1px solid black;
+}
