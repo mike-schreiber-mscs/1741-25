@@ -1,0 +1,185 @@
+﻿/*
+   New Perspectives on HTML
+   Tutorial 3
+   Case 4
+
+   sccr Style Sheet
+   Author: Mike Schreiber
+   Date:   10/14/2014
+
+   Filename:         sccrstyles.css
+   Supporting Files: none
+
+*/
+
+/* Section Styles */
+
+/*added a web font mjs*/
+@font-face {
+   font-family: 'Playfair Display';
+   src: url('https://fonts.googleapis.com/css?family=Playfair+Display') 
+}
+
+/*changed font family and back color of body mjs*/
+body {
+background-color: rgb(220,220,220);
+line-height: 1.5em;
+font-family:  'Playfair Display', serif, 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+}
+
+header {
+text-align: left;
+}
+
+/*changed h1 in header kerning to 2px mjs*/
+header h1 {
+	letter-spacing: 2px;
+}
+
+/*changed font weight for h2 mjs */
+h2 {
+	font-weight: normal;
+}
+
+
+section nav {
+font-size: 0.9em;
+text-align: center;
+}
+
+
+nav.horizontal ul {
+list-style-type: none;
+font-size: 0.8em;
+}
+
+/*changed font weight , back color and added opacity level for compatible browsers. mjs */
+nav.horizontal ul li {
+text-align: center;
+font-weight: bold;
+background-color: rgb(70,130,180);
+background-color: rgba(70,130,180,0.50);
+line-height: 1.5em;
+}
+
+/*changed color of text in nav horizontal class ul li to black*/
+nav.horizontal ul li a {
+	color: rgb(0,0,0);
+}
+
+/*added hover pseudo class to change color of hypertext in nav horizontal class */
+nav.horizontal ul li a:hover {
+	color: rgb(255,255,255);
+}
+
+
+/*added hover pseudo class to change color of hypertext in nav horizontal class and also a before rollover mjs */
+nav.horizontal ul li a:hover:before {
+	color: rgb(255,255,255);
+	content: "<";
+}
+
+/*added hover pseudo class to change color of hypertext and an "after" rollover in nav horizontal class mjs */
+nav.horizontal ul li a:hover:after {
+	color: rgb(255,255,255);
+	content: ">";
+}
+
+section p {
+font-size: 1.1em;
+}
+
+section.full h1 {
+text-align: right;
+font-size: 2em;
+letter-spacing: 0.1em;
+}
+
+section.full p {
+font-size: 0.9em;
+}
+
+section.full article h1 {
+font-size: 1.1em;
+text-align: left;
+letter-spacing: 0.5em;
+font-weight: normal;
+color: #2d04ff;
+}
+
+aside h1 {
+font-size: 1.1em;
+font-weight: normal;
+text-align: center;
+line-height: 1.1em;
+}
+
+
+aside figure figcaption {
+line-height: 1em;
+text-align: center;
+font-style: italic;
+font-size: 0.7em;
+}
+
+/*changed the bullet round to square and font size mjs*/
+aside li {
+font-size: 1.0em;
+line-height: 1.1em;
+list-style: square;
+}
+
+footer {
+text-align: center;
+}
+
+/*changed font family, font size and line height mjs*/
+footer address {
+font-family: sans-serif;
+font-size: 1em;
+font-style: normal;
+font-variant: small-caps;
+line-height: 24px;
+}
+
+
+/* Block Styles */
+h1, h2, h3, h4, h5, h6 {
+font-family: Arial, Helvetica, sans-serif;
+}
+
+header h1 {
+font-size: 2em;
+}
+
+h2 {
+font-size: 1.5em;
+}
+
+
+
+header h2 {
+font-size: 1.2em;
+font-style: italic;
+}
+
+aside h2 {
+text-align: center;
+}
+
+aside p {
+font-size: 0.8em;
+}
+
+section.full h2 {
+font-size: 1.5em;
+}
+
+
+dl {
+font-size: 0.9em;
+}
+
+dt b {
+font-size: 1.1em;
+}

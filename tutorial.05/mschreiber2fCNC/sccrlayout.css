@@ -1,0 +1,211 @@
+﻿/*
+   New Perspectives on HTML
+   Tutorial 3
+   Case 4
+
+   sccr Style Sheet
+   Author: Mike Schreiber
+   Date:   10/14/2014
+
+   Filename:         sccrlayout.css
+   Supporting Files: none
+
+*/
+
+/* Section Styles */
+
+body {
+margin: 0px auto;
+padding: 0px;
+width: 98%;
+max-width: 900px;
+min-width: 250px;
+}
+
+header {
+width: 100%;
+}
+
+nav {
+display: block;
+width: 100%;
+}
+
+section nav {
+padding-bottom: 20px;
+}
+
+
+nav ul {
+margin: 0px;
+padding: 0px;
+}
+
+nav ul li {
+display: block;
+float: left;
+width: 15.6%;
+height: 20px;
+border: 1px solid #2d04ff;
+margin: 0px 4px 5px 0px;
+}
+
+section {
+width: 64%;
+float: left;
+}
+
+section.full {
+width: 100%;
+}
+
+section p {
+margin: 0px 20px 10px 0px;
+}
+
+section.full h1 {
+}
+
+section.full p {
+margin: 0px 0px 30px 0px;
+}
+
+section.full article h1 {
+margin: 0px 0px 5px 0px;
+}
+
+section.full article figure {
+display: block;
+width: 100%;
+margin-bottom: 10px;
+}
+
+section.full article figure img {
+display: block;
+margin: 0px auto;
+}
+
+
+aside {
+float: left;
+width: 35%;
+border-left: 3px solid #2d04ff;
+border-bottom: 3px solid #2d04ff;
+border-radius: 0px 0px 0px 0px;
+-moz-border-radius: 0px 0px 0px 45px;
+-webkit-border-bottom-left-radius: 0px;
+}
+
+aside h1 {
+margin: 5px 0px;
+}
+
+aside figure {
+display: block;
+width: 90%;
+margin: 0px auto;
+}
+
+aside figure img {
+display: block;
+margin: 0px auto;
+box-shadow:10px 10px 20px #000000;
+-webkit-box-shadow:10px 10px 20px #000000;
+-moz-box-shadow: 10px 10px 20px #000000;
+}
+
+aside figure figcaption {
+display: block;
+width: 100%;
+margin: 10px auto 0px;
+}
+
+aside li {
+}
+
+footer {
+display: block;
+width: 100%;
+clear: left;
+margin-top: 5px;
+}
+
+footer address {
+display: block;
+width: 100%;
+clear: left;
+margin-top: 20px;
+border-top: 3px solid #2d04ff;
+}
+
+
+/* Block Styles */
+h1, h2, h3, h4, h5, h6 {
+}
+
+header h1 {
+margin: 1em 0em;
+}
+
+h2 {
+margin: 1em 0em;
+}
+
+header h1 {
+margin: 0px;
+}
+
+header h2 {
+margin: 0em;
+padding-bottom: 0.5em;
+border-bottom:1px black solid;
+}
+
+article p {
+margin: 0.2em 0.9em 0.7em 0em;
+}
+
+article ul {
+margin: 0.1em 0.8em 0.5em;
+}
+
+article ul li {
+margin-right: 0.5em;
+}
+
+aside h2 {
+}
+
+aside p {
+margin: 0px 0.7em;
+}
+
+section.full h2 {
+width: 100%;
+margin:50px 0px 0px 0px;
+border-top: 2px solid rgb(172, 172, 172);
+clear: left;
+float: left;
+}
+
+
+dl {
+margin: 0px;
+margin-left: 60px;
+clear: left;
+float: left;
+}
+
+dt b {
+font-size: 1.1em;
+}
+
+section.full div {
+clear: left;
+padding-top: 30px;
+padding-bottom: 30px;
+}
+
+img {
+border-width: 0px;
+}
