@@ -5,7 +5,7 @@
 
    Cycle Pathology Styles to Reset Style Defaults
    Author: Mike Schreiber
-   Date:   10/20/2016   
+   Date:   11/26/2016   
 
    Filename:         cp_reset.css
    Supporting Files: none
@@ -22,7 +22,7 @@ section, nav {
 /*set the default page element styles*/ 
 
 body * {
-	font-family: Verdana, Geneva, sans-serif;
+	font-family: 'Playfair Display', serif, 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
 	font-size: 100%;
 	font-weight: inherit;
 	line-height: 1.2em;
