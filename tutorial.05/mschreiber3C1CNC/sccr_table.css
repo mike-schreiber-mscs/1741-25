@@ -112,7 +112,7 @@ table.speeds thead th:nth-of-type(3){
  }
 
  
- /* 2 column layout for the introductory paragraph*/
+ /* 3 column layout for the introductory paragraph*/
 section#summary p {
 	-moz-column-count: 3;
 	-webkit-column-count: 3;
