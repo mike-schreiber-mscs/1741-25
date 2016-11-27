@@ -1,0 +1,174 @@
+﻿/*
+   New Perspectives on HTML
+   Tutorial 3
+   Case 4
+
+   sccr Style Sheet
+   Author: Mike Schreiber
+   Date:   10/14/2014
+
+   Filename:         sccrlayout.css
+   Supporting Files: none
+
+*/
+
+/* Section Styles */
+
+body {
+	margin: 0.2em auto;
+	padding: 0em;
+	width: 100%;
+	max-width: 1200px;
+	min-width: 900px;
+}
+
+/*added background image with radius border 3c1 */
+header {
+	width: 100%;
+	height: 25em;
+	background-color: rgb(74,110,185);
+	background-image: url(IQ.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	
+	-o-background-size: 60% auto;
+	-moz-background-size: 60% auto;
+	-webkit-background-size: 60% auto;
+	background-size: 60% auto;
+	border-top-left-radius: 2em;
+	border-bottom-left-radius: 2em;
+	border-bottom-right-radius: 2em;
+	border-top-right-radius: 2em;
+	
+}
+
+
+nav.horizontal {
+	display: block;
+	width: 100%;
+
+}
+
+nav.horizontal ul {
+	margin: 0.5em;
+	padding-left: 25%;
+}
+
+nav.horizontal ul li {
+	display: block;
+	float: left;
+	width: 15.6%;
+	height: 1.6em;
+	border: 1px solid #2d04ff;
+	margin: 0em 0.3em 0.4em 0em;
+}
+
+section {
+	width: 64%;
+	float: left;
+}
+
+/*only applies to about page  3c1 */
+section.full {
+	width: 100%;
+	float: left;
+}
+
+
+/*only applies to about page 3c1 */
+section.full p {
+	margin: 0em 0em 2.4em 0em;
+}
+
+/*only applies to about page 3c1 */
+section.full article h1 {
+	margin: 0em 0em 0.4em 0em;
+}
+
+/*only applies to about page 3c1 */
+section.full article figure {
+	display: block;
+	width: 100%;
+	margin-bottom: 0.8em;
+}
+
+/*only applies to about page 3c1 */
+section.full article figure img {
+	display: block;
+	margin: 0em auto;
+}
+
+#summary {
+   float: left;
+   width: 50%;
+   padding-top: 2em;
+   padding-bottom: 2em;  
+}
+
+
+
+/*applies to all pages except about.htm*/
+aside {
+	
+	float: left;
+	width: 35%;
+	border-left: 3px solid #2d04ff;
+	border-bottom: 3px solid #2d04ff;
+
+}
+
+/*added padding to aside ul 3c1 applies to home and cncrouting.htm */
+aside ul {
+	padding-left: 2em;
+	
+}
+
+/*added padding to aside image contact.htm 3c1 */
+aside img {
+	padding: 0.5em;
+}
+
+aside table.speeds {
+	padding-left: 2em;
+}
+
+
+
+footer {
+	display: block;
+	width: 100%;
+	clear: left;
+	margin-top: 0.4em;
+}
+
+footer address {
+	display: block;
+	width: 100%;
+	clear: left;
+	margin-top: 1.6em;
+	border-top: 0.2em solid #2d04ff;
+}
+
+
+/* Header Styles */
+header h1 {
+	margin: 1em 0em;
+	text-align: center;
+	padding-top: 11em;
+	
+}
+
+/* article Styles */
+article p {
+	margin: 0.2em 0.9em 0.7em 0em;
+	
+}
+
+
+/* only applies to cnc routing ul */
+article ul {
+	margin: 0.1em 0.8em 0.5em;
+	
+}
+
+

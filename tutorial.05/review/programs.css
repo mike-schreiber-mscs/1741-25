@@ -77,9 +77,9 @@ table.programs thead th:nth-of-type(7), table.programs thead th:nth-of-type(8) {
  
  /* 3 column layout for the introductory paragraph*/
 section#intro p {
-	-moz-column-count: 3;
-	-webkit-column-count: 3;
-	column-count: 3;
+	-moz-column-count: 1;
+	-webkit-column-count: 1;
+	column-count: 1;
 
 	-webkit-column-gap: 20px;
 	-moz-column-gap: 20px;

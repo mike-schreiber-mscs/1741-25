@@ -14,18 +14,16 @@
         <meta name="description" content="A site showcasing Schreiber Custom CNC Routing wood art"/>
         <title>CNC Routing</title>
         <script src="modernizr-1.5.js"></script>
+       <link rel="stylesheet" type="text/css" href="sccr_reset.css">
         <link rel="stylesheet" type="text/css" href="sccrstyles.css">
         <link rel="stylesheet" type="text/css" href="sccrlayout.css">
-	    <link rel="stylesheet" type="text/css" href="sccr_reset.css">
-    </head>
+        <link rel="stylesheet" type="text/css" href="sccr_table.css">
+	</head>
 
 	<body>
     	<header>
         	
-          <!--<img src="IQ.jpg" alt="Schreiber Custom CNC Routing" usemap="#IQ" />
-            <map name="IQ">
-              <area shape="circle" coords="-115,4707,38" href="Drag to a file to make a link.">
-          </map>-->
+          
             
     	</header>
         
@@ -67,6 +65,47 @@
                     <li>Sign Engraving</li>
                 </ul>
             </aside>
+            
+             <section id="summary">
+          
+          	<p>CNC Routing has different speeds and feeds per material and tool composition. <br />
+            <br />Please refer below for our current cutting speeds.
+         </p>
+          
+          	<table class="speeds" summary="This is a summary of cutting speed per material and tool type.">
+          
+                      <caption>
+                        Units are Inches per Minute
+                      </caption>
+                           <colgroup>
+                                    <col class="cToolColumns"/>
+                                    <col class="cCompositeColumns"/>
+                                    <col class="mCoColumns"/>
+                                    <col class="mMetalColumns"/>
+                           </colgroup>
+                               <thead>
+                                    <tr>
+                                         <th scope="col">Tool</th>
+                                         <th scope="col">Wood</th>
+                                         <th scope="col">Plastic</th>
+                                         <th scope="col">Non-Ferrous</th>      
+                                    </tr>
+                    		  </thead>
+                
+                              <tbody>
+                                    <tr>
+                                        <th scope="row">Carbide</th>
+                                        <td rowspan="2" colspan="2">100</td>
+                                        <td>20</td>     
+                                    </tr>
+                                
+                                    <tr>
+                                         <th scope="row">HSS</th>
+                                         <td>15</td>       
+                                    </tr>
+                            </tbody>
+                  </table>
+            </section> 
             
             <footer>
             	<address>41 East 7<sup>th</sup> Street &#8226;

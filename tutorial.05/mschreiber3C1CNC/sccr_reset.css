@@ -5,7 +5,7 @@
 
    Cycle Pathology Styles to Reset Style Defaults
    Author: Mike Schreiber
-   Date:   11/26/2016   
+   Date:   10/20/2016   
 
    Filename:         cp_reset.css
    Supporting Files: none
@@ -27,8 +27,8 @@ body * {
 	font-weight: inherit;
 	line-height: 1.2em;
 	list-style: none;
-	marigin: 0px;
-	padding: 0px;
+	marigin: 0em;
+	padding: 0em;
 	vertical-align: baseline;
 }
 
